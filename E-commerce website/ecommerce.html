@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>
+  Sneaker Company
+</title>
+<link rel="shortcut icon" type="image/png" href="images/images/favicon-32x32.png">
+ <Style>
+  div{
+    font-family: Kumbh Sans;
+  }
+  .left-side-div{
+    display: flex;
+    flex-direction: row;
+    
+  }
+.header-sneakers{
+font-weight: bolder;
+font-size: 30px;
+margin-right: 40px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+
+.header-collection{
+font-size: 16px;
+color: gray;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+.header-man{
+  font-size: 16px;
+color: gray;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+.header-women{
+  font-size: 16px;
+color: gray;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+.header-about{
+  font-size: 16px;
+color: gray;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+.header-contacts{
+  font-size: 16px;
+color: gray;
+margin-right: 40px;
+margin-top: 10px;
+cursor: pointer;
+transition: opacity 0.16s;
+}
+.right-side-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+  margin-left: 1300px;
+}
+.icon1-header{
+  margin-right: 10px;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: opacity 0.16s;
+}
+.icon2-header{
+  width: 40px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.16s;
+}
+.header{
+  border: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  border-color: gray;
+  margin-top: 10px;
+}
+.header-sneakers:hover,
+.header-collection:hover,
+.header-man:hover,
+.header-women:hover,
+.header-about:hover,
+.header-contacts:hover,
+.icon1-header:hover,
+.icon2-header:hover{
+  opacity: 0.4;
+}
+
+.centerimg{
+  width: 400px;
+  border-radius: 20px;
+  margin-top: 60px;
+  margin-left: 80px;
+}
+.five-img-center{
+ display: flex;
+  width: 600px;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+.firstimg-center,
+.secondimg-center,
+.thirdimg-center,
+.fourimg-center{
+  width: 92px;
+  margin-left: 10px;
+  border-radius: 10%;
+  transition: opacity 0.15s;
+}
+.firstimg-center:hover,
+.secondimg-center:hover,
+.thirdimg-center:hover,
+.fourimg-center:hover{
+  opacity: 0.5;
+}
+.right-side-center{
+  margin-top: -470px;
+  margin-left: 550px;
+}
+.rightside-topic1{
+  font-size: 14px;
+  font-weight: bolder;
+  color: hsl(26, 100%, 55%);
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.rightside-topic1:hover{
+   opacity: 0.5;
+}
+.rightside-topic2{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.sneakers-info{
+  font-size: 16px;
+  color: gray;
+  margin-top: 30px;
+  width: 300px;
+}
+.price-div{
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.exact-price{
+  font-size: 25px;
+  font-weight: bolder;
+}
+.exact-sale{
+  font-size: 14px;
+  margin-left: 20px;
+  margin-top: 0px;
+  background-color: hsl(25, 100%, 94%);
+ padding-top: 2px;
+ padding-bottom: -2px;
+ padding-left: 2px;
+ padding-right: 2px;
+  border-radius: 20%;
+  color: hsl(26, 100%, 55%);
+}
+.price-befsale{
+  color: gray;
+  font-size: 14px;
+}
+.last-div{
+  margin-left: 600px;
+  margin-top: 130px;
+}
+.minus,
+.plus,
+.zero{
+  background-color: whitesmoke;
+  color:  orange;
+  font-weight: bolder;
+  font-size: 15px;
+  border: none;
+  width: 40px;
+  height: 30px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.minus:hover,
+.plus:hover,
+.zero:hover,
+.duobut:hover{
+  opacity: 0.5;
+}
+
+.zero{
+  color: black;
+}
+
+.duobut{
+  border: none;
+  background-color: hsl(26, 100%, 55%);
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  color: white;
+
+}
+.buttonimg{
+width: 15px;
+margin-right: 8px;
+margin-top: 4px;
+}
+ </Style>
+</head>
+  <body>
+<div class="whole-div">
+<div class="header">
+<div class="left-side-div">
+<div class="header-sneakers">Sneakers</div>
+<div class="header-collection">Collections</div>
+<div class="header-man">Men</div>
+<div class="header-women">Women</div>
+<div class="header-about">About</div>
+<div class="header-contacts">Contacts</div>
+</div>
+<div class="right-side-div">
+<div><img  class="icon1-header" src="images/images/icon-cart.svg"></div>
+<div><img class="icon2-header" src="images/images/image-avatar.png"></div>
+</div>
+</div>
+
+<div class="left-side-center">
+<div> <img class="centerimg" src="images/images/image-product-1.jpg"></div>
+<div class="five-img-center">
+<div><img class="firstimg-center" src="images/images/image-product-2.jpg"></div>
+<div><img class="secondimg-center" src="images/images/image-product-3.jpg"></div>
+<div><img class="thirdimg-center" src="images/images/image-product-4.jpg"></div>
+<div><img class="fourimg-center" src="images/images/image-product-4-thumbnail.jpg"></div>
+</div>
+</div>
+
+<div class="right-side-center">
+<div class="rightside-topic1">SNEAKER COMPANY</div>
+<div class="rightside-topic2">Fall Limited Edition Sneakers</div>
+<div class="sneakers-info">
+These low-profile sneakers are your 
+perfect casual wear companion.Featuring 
+a durable rubber outer sole,they will
+withstand everything weather can offer.
+</div>
+<div class="price-div">
+  <div class="exact-price">$125.00</div>
+  <div class="exact-sale">50%</div>
+</div>
+<div class="price-befsale">$250.00</div>
+</div>
+<div class="last-div">
+<div class="buttons">
+<button class="minus">-</button>
+<button class="zero">0</button>
+<button class="plus">+</button>
+<button class="duobut">
+  <img class="buttonimg" src="images/images/icon-cart.svg" <div class="addto">Add to cart</div>
+</button>
+</div>
+</div>
+</div>
+  </body>
+</html>
